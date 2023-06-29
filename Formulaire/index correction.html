@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Formulaires</title>
+</head>
+
+<body>
+
+    <!-- type TEXT -->
+    <label for="nom"> Entrez votre Nom </label>
+    <input id="nom" name="nom" type="text">
+    <br><br>
+
+    <!-- type NUMBER -->
+    <label for="age">Votre age SVP? </label>
+    <input id="age" name="age" type="number">
+    <br><br>
+
+    <!-- type CHECKBOX  (une case )-->
+    <label for="agree"> I agree </label>
+    <input id="agree" name="agree" type="checkbox"><br><br>
+
+
+    <!-- type CHECKBOX  (plusieurs cases )-->
+    <p>Choisissez votre (vos) fruit(s) :</p>
+
+    <label for="banane">Banane</label>
+    <input id="banane" name="fruits" type="checkbox"><br>
+
+    <label for="fraises">Fraises</label>
+    <input id="fraises" name="fruits" type="checkbox"><br>
+
+    <label for="pomme">Pomme</label>
+    <input id="pomme" name="fruits" type="checkbox"><br>
+
+    <label for="orange">Orange</label>
+    <input id="orange" name="fruits" type="checkbox"><br>
+
+    <label for="kiwi">Kiwi</label>
+    <input id="kiwi" name="fruits" type="checkbox"><br>
+
+
+    <!-- type Radio  (plusieurs cases mais UN SEUL choix possible )-->
+    <p>RADIO Choisissez votre couleur preferée :</p>
+
+    <label for="noir">Noir</label>
+    <input id="noir" name="couleur" type="radio"><br>
+
+    <label for="rouge">Rouge</label>
+    <input id="rouge" name="couleur" type="radio"><br>
+
+    <label for="bleu">Bleu</label>
+    <input id="bleu" name="couleur" type="radio"><br>
+
+
+    <!-- type Submit (Envoyer)-->
+    <input type="submit" value="Envoyer"> <br><br>
+
+
+    <!-- Textarea -->
+    <label for="temoignage"> Votre temoignage svp</label> <br>
+    <textarea name="temoignage" id="temoignage" cols="50" rows="5"></textarea><br><br>
+
+    <!-- Select-->
+    <label for="fleurs">Choisissez votre fleur </label>
+    <select name="fleurs" id="fleurs" size="1">
+
+        <option value="roses">Roses</option>
+        <option value="tulipes">Tulipes</option>
+        <option value="lys">Lys</option>
+        <option value="thym">Thym</option>
+        <option value="orchidee">Orchidée</option>
+
+    </select>
+    <br><br><br>
+
+
+
+
+</body>
+
+
+
+</html>

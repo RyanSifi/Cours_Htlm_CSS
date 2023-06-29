@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: start ;
+    height: 100vh;
+    /* On utilise align-item pour mettre au centre et height car le body est trop petit il faut donc qu'il prennnent toute la page */
+    /*FlexBox Froggy pour exo*/
+}
+div{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+#rouge{
+    background-color: red;
+}
+#verte{
+    background-color: green;
+}
+#bleue{
+    background-color: darkturquoise;
+}

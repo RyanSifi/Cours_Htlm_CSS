@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    height: 100vh;
+    /* On utilise align-item pour mettre au centre et height car le body est trop petit il faut donc qu'il prennnent toute la page */
+    /*FlexBox Froggy pour exo*/
+}
+div{
+    width: 500px;
+    border: 1px solid black;
+}
+p{
+    margin: 1em;
+}
+

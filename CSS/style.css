@@ -1,0 +1,26 @@
+body{
+    background-color: gold;
+    font-family: cursive;
+    font-size: 16px;
+    
+}
+.p{
+    color: green;
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+}
+#b{
+    color: pink;
+    background-color: orange;
+}
+
+#s{
+    color: blueviolet;
+    background-color: bisque;
+}
+p{
+    color: black;
+    background-color: silver;
+
+}
